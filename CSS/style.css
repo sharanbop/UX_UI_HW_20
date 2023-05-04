@@ -1,0 +1,215 @@
+body {
+    background-color: #FFFDFB;
+    font-family: "degular", sans-serif;
+    font-size: 18px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.logo{
+    margin-left: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 1%;
+}
+
+nav ul {
+    display: flex;
+    align-items: centers;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 40px
+}
+
+nav ul li a {
+    color: #29487D;
+    text-decoration: none;
+}
+
+.heroImg {
+    display: flex;
+    flex-direction: row-reverse;
+    max-width: 1100px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+@media (max-width: 799px) {
+    .heroImg {
+        display: block;
+    }
+}
+
+.talkButton{
+    background-color: #29487D;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.CVButton{
+    stroke: #EFC35B, 10px;
+    border-radius: 10px;
+}
+.projectButton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0px auto;
+    margin-top: 150px;
+}
+.aboutProject{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.scrollButton{
+    background-color: #29487D;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    scroll-behavior: smooth;
+}
+
+.chevron{
+    margin-top: 25px;
+}
+
+.projectBody{
+    display: flex;
+    max-width: 1500px;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 150px;
+    text-align: center;
+}
+
+#WSF{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    max-width: 1500px;
+}
+
+#CFIA{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row-reverse;
+    max-width: 1500px;
+}
+
+#FlyThere{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    max-width: 1500px;
+}
+
+.projectTextRight{
+    text-align: left;
+    margin-left: 20px;
+}
+
+.projectTextLeft{
+    text-align: left;
+    margin-right: 20px;
+}
+
+.readMoreButton{
+    background-color: #29487D;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin-top: 100px;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+}
+
+@media (max-width: 799px) {
+    .about {
+        display: block;
+    }
+}
+
+.Education {
+    flex: 50% 0 0;
+}
+
+.skills {
+    list-style: none;
+    font-size: 25pt;
+    font-family: "new-kansas", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+h1{
+    width: 550px;
+    font-size: 45pt;
+    font-family: "manteiga-gorda", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+h2{
+    font-size: 30pt;
+    font-family: "new-kansas", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+h3{
+    font-size: 25pt;
+    font-family: "new-kansas", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+h4{
+    font-size: 25pt;
+    font-family: "marydale", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+p {
+    font-size: 18pt;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.CSIntroduction{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+.CSTitle{
+    width: 70%;
+}
+
+.CSInfo{
+    font-family: 'New Kansas';
+    font-size: 20pt;
+}
+@media (max-width: 799px) {
+    .CSIntroduction {
+        display: block;
+    }
+}
