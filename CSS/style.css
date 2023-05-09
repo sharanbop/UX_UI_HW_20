@@ -207,9 +207,96 @@ p {
 .CSInfo{
     font-family: 'New Kansas';
     font-size: 20pt;
+    padding: 0;
+    margin: 0;
 }
 @media (max-width: 799px) {
     .CSIntroduction {
         display: block;
     }
+}
+
+.coverImage{
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 0;
+}
+.jumbotron{
+    padding: 0;
+    margin: 0;
+}
+
+.stickyNavigation.sticky-top{
+    background-color: #FFFDFB;
+    margin: 10px;
+    padding-bottom: 20px;
+}
+
+.nav-item.nav-link{
+    font-size: 25pt;
+    font-family: "new-kansas", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    color: black;
+}
+
+.nav-item.nav-link.active{
+    color: #29487D;
+    background: none;
+    text-decoration: underline;
+}
+#researchOutline{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.researchBreakdown{
+    text-align: center;
+    margin: 5px;
+    width: 500px;
+}
+
+@media (max-width: 799px) {
+    .researchOutline {
+        display: block;
+    }
+}
+.InitialR{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+
+}
+.IRCopy{
+    width: 700px;
+}
+#researchFindings{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.researchCards{
+    display: flex;
+    flex-direction: row;
+}
+.card{
+    margin: 1%;
+}
+@media (max-width: 799px) {
+    .researchCards {
+        display: block;
+    }
+}
+#workingSolution{
+    padding: 20px;
+}
+
+.solution{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
 }
